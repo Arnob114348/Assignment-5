@@ -83,7 +83,7 @@ document.getElementById('btn-quota-donate').addEventListener('click',function(){
     document.getElementById('current-quota-donation').innerText=newDonationBalance;
     const history=document.getElementById('history');
     const card=document.createElement('div');
-    card.classList.add('bg-white');
+    card.classList.add('btn-white');
     const transaction=document.createElement('p');
     const text=`${donationAmount} taka is donated for Aid for Injured in the Quota Movement`;
     transaction.innerText=text;
